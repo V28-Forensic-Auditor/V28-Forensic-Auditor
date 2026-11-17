@@ -16,5 +16,7 @@ The project is built on  Pure-StdLib  and  Zero-Dependency , making it compl
 ### 📄 Full White Paper & Data
 The complete v1.5 audit report, evidence chain, and adversarial test cases are permanently archived on Zenodo:
 👉 **DOI:** [10.5281/zenodo.24276346](https://doi.org/10.5281/zenodo.24276346)
-
-*Note: The core probe source code is kept private (as `.pyc` bytecodes) for commercial third-party auditing purposes. For enterprise private deployment or independent auditing services, please contact the author.*
+> **📜 Official Citation & Verification:**
+> * **Cite this work (Zenodo):** [10.5281/zenodo.24276346](https://doi.org/10.5281/zenodo.24276346)
+> * **Author's Academic Profile (ORCID):** [0009-0002-4588-3006](https://orcid.org/0009-0002-4588-3006)
+> *⚠️ Disclaimer:* This engine is a forensic validator, not a predictive model. Core probe source codes remain private (`.pyc` bytecode) for commercial third-party auditing. Please contact the author for independent physical compliance audits.
