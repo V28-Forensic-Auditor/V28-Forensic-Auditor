@@ -1,20 +1,19 @@
 # 🩸 V28 Forensic Auditor
+**Independent Forensic Division. We don't predict, we falsify. (独立法医审计部。我们不预测，我们只证伪。)**
 
-**Independent Forensic Division. We don't predict, we falsify.**
-*(独立法医审计部。我们不预测，我们只证伪。)*
+### 🔬 What is V28?
+V28 is a **Pure-StdLib, Zero-Dependency, White-Box Audit Framework** designed to evaluate the physical and kinematic integrity of AI-generated biomolecular structures. 
 
-## 🔬 What is V28?
-V28 is a **Pure-Stdlib, Zero-Dependency, White-Box Audit Framework** designed to evaluate the physical and kinematic integrity of AI-generated biomolecular structures and MD trajectories.
+Unlike black-box AI models, V28 uses hard-coded physical axioms (van der Waals radii, Euclidean distances, chirality tensors) to prove when a structural artifact is physically impossible.
 
-Unlike black-box AI models, V28 does not guess. It uses hard-coded physical axioms (van der Waals radii, Euclidean topologies, chirality tensors) to mathematically prove when an AI hallucination is physically impossible.
+### 🏆 Core Achievements
+- **Extensive FPR Benchmarking:** Achieved a **3.26%** false-positive rate against **100** experimental RCSB PDB structures (0.00% on NMR).
+- **Protein-Ligand Interception:** Detected a fatal **1.336 Å** steric clash in classic experimental data (e.g., 3PGK), proving physical impossibilities exist even in human-deposited data.
+- **Official Corroboration:** An audit issue submitted to the official RFdiffusion repository (RosettaCommons) regarding missing chain breaks was confirmed by core developers.
+- **MCP Agent Ready:** Fully encapsulated as a Model Context Protocol (MCP) server, allowing LLMs (Claude/Cursor/Trae) to invoke V28 directly for automated physical QA.
 
-## 🏆 Core Achievements
-*   **Strict Validation:** Achieved a **6.67% false-positive rate** against 45 genuine wwPDB monomers.
-*   **Historical Falsification:** Direct coordinate measurement exposed critical steric clashes in three pre-1984 PDB depositions (6LYZ, 2LYZ, 1MBN).
-*   **Self-Falsification:** Formally sealed a negative result, proving that "geometric noise injection" is a pseudoscientific method for testing AI robustness.
+### 📄 Full White Paper & Data
+The complete v1.5 audit report, evidence chain, and adversarial test cases are permanently archived on Zenodo:
+👉 **DOI:** [10.5281/zenodo.24276346](https://doi.org/10.5281/zenodo.24276346)
 
-## 📄 Full White Paper & Data
-The complete 16-page audit report, evidence chain, and adversarial test cases are permanently archived on Zenodo:
-👉 **[DOI: 10.5281/zenodo.24111553](https://doi.org/10.5281/zenodo.24111553)**
-
-*Note: The core probe source code is kept private. For commercial third-party auditing services of your AI models/trajectories, please open an Issue or contact the author.*
+*Note: The core probe source code is kept private (as `.pyc` bytecodes) for commercial third-party auditing purposes. For enterprise private deployment or independent auditing services, please contact the author.*
