@@ -20,3 +20,4 @@ The complete v1.5 audit report, evidence chain, and adversarial test cases are p
 > * **Cite this work (Zenodo):** [10.5281/zenodo.24276346](https://doi.org/10.5281/zenodo.24276346)
 > * **Author's Academic Profile (ORCID):** [0009-0002-4588-3006](https://orcid.org/0009-0002-4588-3006)
 > *⚠️ Disclaimer:* This engine is a forensic validator, not a predictive model. Core probe source codes remain private (`.pyc` bytecode) for commercial third-party auditing. Please contact the author for independent physical compliance audits.
+Contact for Commercial Deployment & MCP Integration:v28.engine@outlook.com
