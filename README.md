@@ -11,7 +11,7 @@ The project is built on **Pure-StdLib** and **Zero-Dependency**, making it compl
 ### 🏆 Core Achievements
 - **Extensive FPR Benchmarking:** Achieved a **3.26%** false-positive rate against **100** experimental RCSB PDB structures (0.00% on NMR).
 - **Protein-Ligand Interception:** Detected a fatal **1.336 Å** steric clash in classic experimental data (e.g., 3PGK), proving physical impossibilities exist even in human-deposited data.
-- **Official Corroboration:** [An audit issue](https://github.com/RosettaCommons/RFdiffusion/issues/你的真实Issue编号) submitted to the official RFdiffusion repository (RosettaCommons) regarding missing chain breaks was confirmed by core developers.
+- **Official Corroboration:** [An audit issue](https://github.com/RosettaCommons/RFdiffusion/issues/458) submitted to the official RFdiffusion repository (RosettaCommons) regarding missing chain breaks was confirmed by core developers.
 - **MCP Agent Ready:** Fully encapsulated as a Model Context Protocol (MCP) server, allowing LLMs (Claude/Cursor/Trae) to invoke V28 directly for automated physical QA.
 
 ### 📄 Full White Paper & Data
